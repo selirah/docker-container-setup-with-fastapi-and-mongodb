@@ -7,10 +7,11 @@ services:
     container_name: app
     ports:
       - "8000:8000"
-    volumes:
-      - .:/app
+    env_file: .env
     depends_on:
       - mongo
+    volumes:
+      - .:/app
   mongo:
     image: mongo:7.0
     container_name: app-db
