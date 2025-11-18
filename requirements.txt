@@ -1,0 +1,7 @@
+beanie==2.0.0
+fastapi==0.116.1
+fastapi-utilities==0.3.1
+pymongo==4.15.4
+motor==3.7.1
+python-dotenv==1.1.1
+pydantic-settings==2.12.0
